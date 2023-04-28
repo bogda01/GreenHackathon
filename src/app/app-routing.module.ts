@@ -7,8 +7,8 @@ import { StartComponent } from './start/start.component';
 import { ProfileComponent } from './pages/profile/profile.component';
 import { MapComponent } from './pages/map/map.component';
 import { RewardsComponent } from './pages/rewards/rewards.component';
-import { GetBikeComponent } from './pages/get-bike/get-bike.component';
 import { SettingsComponent } from './pages/settings/settings.component';
+import { CommunityComponent } from './pages/community/community.component';
 
 const routes: Routes = [
   { path: 'login', component: LoginComponent },
@@ -18,7 +18,7 @@ const routes: Routes = [
   { path: 'profile', component: ProfileComponent },
   { path: 'map', component: MapComponent },
   { path: 'rewards', component: RewardsComponent },
-  { path: 'get-bike', component: GetBikeComponent },
+  { path: 'community', component: CommunityComponent },
   { path: 'settings', component: SettingsComponent },
 ]; // sets up routes constant where you define your routes
 

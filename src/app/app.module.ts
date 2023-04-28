@@ -21,8 +21,12 @@ import { MatIconModule } from '@angular/material/icon';
 import { ProfileComponent } from './pages/profile/profile.component';
 import { MapComponent } from './pages/map/map.component';
 import { RewardsComponent } from './pages/rewards/rewards.component';
-import { GetBikeComponent } from './pages/get-bike/get-bike.component';
+
 import { SettingsComponent } from './pages/settings/settings.component';
+import { CardModule } from 'primeng/card';
+import { ImageModule } from 'primeng/image';
+import { CommunityComponent } from './pages/community/community.component';
+import { DataViewModule } from 'primeng/dataview';
 
 @NgModule({
   declarations: [
@@ -35,8 +39,8 @@ import { SettingsComponent } from './pages/settings/settings.component';
     ProfileComponent,
     MapComponent,
     RewardsComponent,
-    GetBikeComponent,
     SettingsComponent,
+    CommunityComponent,
   ],
   imports: [
     BrowserModule,
@@ -51,6 +55,9 @@ import { SettingsComponent } from './pages/settings/settings.component';
     ReactiveFormsModule,
     MenubarModule,
     MatIconModule,
+    CardModule,
+    ImageModule,
+    DataViewModule,
   ],
   providers: [],
   bootstrap: [AppComponent],

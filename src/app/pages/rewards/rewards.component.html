@@ -1,1 +1,13 @@
-<p>rewards works!</p>
+<app-menu></app-menu>
+<p-card [style]="{ width: '360px' }" header="{{rewards[0].name}}" subheader="{{rewards[0].type}}">
+  <ng-template pTemplate="header">
+    <img alt="Card" src="https://primefaces.org/cdn/primeng/images/usercard.png"/>
+  </ng-template>
+  <p>
+    {{rewards[0].text}}
+  </p>
+  <ng-template pTemplate="footer">
+    <p-button icon="pi pi-caret-right" label="Start Session"></p-button>
+    <p-button [style]="{ 'margin-left': '1.5em' }" icon="pi pi-qrcode" label="Scan QR"></p-button>
+  </ng-template>
+</p-card>
