@@ -23,6 +23,8 @@ import { MapComponent } from './pages/map/map.component';
 import { RewardsComponent } from './pages/rewards/rewards.component';
 import { GetBikeComponent } from './pages/get-bike/get-bike.component';
 import { SettingsComponent } from './pages/settings/settings.component';
+import {AvatarModule} from "primeng/avatar";
+import {ImageModule} from "primeng/image";
 
 @NgModule({
   declarations: [
@@ -51,6 +53,8 @@ import { SettingsComponent } from './pages/settings/settings.component';
     ReactiveFormsModule,
     MenubarModule,
     MatIconModule,
+    AvatarModule,
+    ImageModule
   ],
   providers: [],
   bootstrap: [AppComponent],
