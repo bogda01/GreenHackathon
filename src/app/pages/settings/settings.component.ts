@@ -6,5 +6,7 @@ import { Component } from '@angular/core';
   styleUrls: ['./settings.component.sass']
 })
 export class SettingsComponent {
-
+  displayAlert(id:any) {
+    alert(id);
+  }
 }
