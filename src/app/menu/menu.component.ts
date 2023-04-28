@@ -14,22 +14,27 @@ export class MenuComponent {
       {
         label: 'Profile',
         icon: 'pi pi-user',
+        routerLink: '/profile',
       },
       {
         label: 'Map',
         icon: 'pi pi-map-marker',
+        routerLink: '/map',
       },
       {
         label: 'Reward',
         icon: 'pi pi-gift',
+        routerLink: '/rewards',
       },
       {
         label: 'Get Bike',
         icon: 'pi pi-lock-open',
+        routerLink: '/get-bike',
       },
       {
         label: 'Settings',
         icon: 'pi pi-wrench',
+        routerLink: '/settings',
       },
     ];
   }

@@ -18,6 +18,11 @@ import { MenubarModule } from 'primeng/menubar';
 import { MenuComponent } from './menu/menu.component';
 import { StartComponent } from './start/start.component';
 import { MatIconModule } from '@angular/material/icon';
+import { ProfileComponent } from './pages/profile/profile.component';
+import { MapComponent } from './pages/map/map.component';
+import { RewardsComponent } from './pages/rewards/rewards.component';
+import { GetBikeComponent } from './pages/get-bike/get-bike.component';
+import { SettingsComponent } from './pages/settings/settings.component';
 
 @NgModule({
   declarations: [
@@ -27,6 +32,11 @@ import { MatIconModule } from '@angular/material/icon';
     HomeComponent,
     MenuComponent,
     StartComponent,
+    ProfileComponent,
+    MapComponent,
+    RewardsComponent,
+    GetBikeComponent,
+    SettingsComponent,
   ],
   imports: [
     BrowserModule,
