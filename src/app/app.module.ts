@@ -8,16 +8,16 @@ import { LoginComponent } from './login/login.component';
 import { InputTextModule } from 'primeng/inputtext';
 import { CheckboxModule } from 'primeng/checkbox';
 import { RadioButtonModule } from 'primeng/radiobutton';
-import {FormsModule, ReactiveFormsModule} from '@angular/forms';
+import { FormsModule, ReactiveFormsModule } from '@angular/forms';
 import { ButtonModule } from 'primeng/button';
 import { PasswordModule } from 'primeng/password';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import { SignupComponent } from './signup/signup.component';
 import { HomeComponent } from './home/home.component';
-import {MenubarModule} from "primeng/menubar";
+import { MenubarModule } from 'primeng/menubar';
 import { MenuComponent } from './menu/menu.component';
 import { StartComponent } from './start/start.component';
-
+import { MatIconModule } from '@angular/material/icon';
 
 @NgModule({
   declarations: [
@@ -26,7 +26,7 @@ import { StartComponent } from './start/start.component';
     SignupComponent,
     HomeComponent,
     MenuComponent,
-    StartComponent
+    StartComponent,
   ],
   imports: [
     BrowserModule,
@@ -39,9 +39,10 @@ import { StartComponent } from './start/start.component';
     PasswordModule,
     BrowserAnimationsModule,
     ReactiveFormsModule,
-    MenubarModule
+    MenubarModule,
+    MatIconModule,
   ],
   providers: [],
-  bootstrap: [AppComponent]
+  bootstrap: [AppComponent],
 })
 export class AppModule {}

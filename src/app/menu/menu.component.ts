@@ -25,7 +25,7 @@ export class MenuComponent {
       },
       {
         label: 'Get Bike',
-        icon: 'pi pedal_bike',
+        icon: 'pi pi-lock-open',
       },
       {
         label: 'Settings',
