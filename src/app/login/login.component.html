@@ -1,0 +1,16 @@
+<h1>Login</h1>
+
+<form>
+  <label for="email">Email:</label>
+  <input id="email" pInputText required type="email"/>
+
+  <label for="password">Password:</label>
+  <input [formControl]="password" [ngClass]="{'p-invalid': !password.valid && (password.dirty || password.touched)}"
+         id="password"
+         required type="password"/>
+
+
+  <a routerLink="/home">
+    <button label="Login" pButton type="submit"></button>
+  </a>
+</form>
