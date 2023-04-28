@@ -1,1 +1,28 @@
-<p>settings works!</p>
+<h1 style="display: flex; justify-content: center">Settings</h1>
+
+<div id="mainDiv">
+  <div id="privacy" class="darken" (click)="displayAlert('Privacy Settings')">
+    <p>Privacy Settings</p>
+  </div>
+
+  <div id="changePass" class="darken" (click)="displayAlert('Change Password')">
+    <p>Change Password</p>
+  </div>
+
+  <div id="saveBattery" class="darken" (click)="displayAlert('Battery Saver')">
+    <p>Battery Saver</p>
+  </div>
+
+  <div id="notifications" class="darken" (click)="displayAlert('Notifications')">
+    <p>Notifications</p>
+  </div>
+
+  <div id="visibility" class="darken" (click)="displayAlert('Visibility Settings')">
+    <p>Visibility Settings</p>
+  </div>
+
+  <div id="accessibility" class="darken" (click)="displayAlert('Accessibility')">
+    <p>Accessibility</p>
+  </div>
+</div>
+
