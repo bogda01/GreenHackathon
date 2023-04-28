@@ -23,6 +23,7 @@ import { MapComponent } from './pages/map/map.component';
 import { RewardsComponent } from './pages/rewards/rewards.component';
 import { GetBikeComponent } from './pages/get-bike/get-bike.component';
 import { SettingsComponent } from './pages/settings/settings.component';
+import { TopPeopleComponent } from './pages/top-people/top-people.component';
 
 @NgModule({
   declarations: [
@@ -37,6 +38,7 @@ import { SettingsComponent } from './pages/settings/settings.component';
     RewardsComponent,
     GetBikeComponent,
     SettingsComponent,
+    TopPeopleComponent,
   ],
   imports: [
     BrowserModule,

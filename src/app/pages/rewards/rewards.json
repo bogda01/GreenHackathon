@@ -1,0 +1,14 @@
+[
+  {
+    "image": "C:/Andrei/Facultate/Hackathon/GreenHackathon/src/app/pages/rewards/images/decathlon.png",
+    "name": "Decathlon",
+    "type": "Retail",
+    "text": "5% Discount: Bike tires"
+  },
+  {
+    "image": "/images//jacks.png",
+    "name": "Jacks Bistro",
+    "type": "Restaurant",
+    "text": "10% Discount: Pasta"
+  }
+]

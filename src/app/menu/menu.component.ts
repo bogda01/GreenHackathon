@@ -27,9 +27,9 @@ export class MenuComponent {
         routerLink: '/rewards',
       },
       {
-        label: 'Get Bike',
-        icon: 'pi pi-lock-open',
-        routerLink: '/get-bike',
+        label: 'Ranking',
+        icon: 'pi pi-sitemap',
+        routerLink: '/ranking',
       },
       {
         label: 'Settings',
