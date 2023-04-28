@@ -26,6 +26,7 @@ import { SettingsComponent } from './pages/settings/settings.component';
 import {AvatarModule} from "primeng/avatar";
 import {ImageModule} from "primeng/image";
 import { TopPeopleComponent } from './pages/top-people/top-people.component';
+import {TableModule} from "primeng/table";
 
 @NgModule({
   declarations: [
@@ -42,22 +43,23 @@ import { TopPeopleComponent } from './pages/top-people/top-people.component';
     SettingsComponent,
     TopPeopleComponent,
   ],
-  imports: [
-    BrowserModule,
-    AppRoutingModule,
-    InputTextModule,
-    CheckboxModule,
-    RadioButtonModule,
-    FormsModule,
-    ButtonModule,
-    PasswordModule,
-    BrowserAnimationsModule,
-    ReactiveFormsModule,
-    MenubarModule,
-    MatIconModule,
-    AvatarModule,
-    ImageModule
-  ],
+    imports: [
+        BrowserModule,
+        AppRoutingModule,
+        InputTextModule,
+        CheckboxModule,
+        RadioButtonModule,
+        FormsModule,
+        ButtonModule,
+        PasswordModule,
+        BrowserAnimationsModule,
+        ReactiveFormsModule,
+        MenubarModule,
+        MatIconModule,
+        AvatarModule,
+        ImageModule,
+        TableModule
+    ],
   providers: [],
   bootstrap: [AppComponent],
 })

@@ -1,1 +1,21 @@
-<p>top-people works!</p>
+<div id="mainDiv">
+  <h1 style="display: flex; justify-content: center">Leaderboard</h1>
+
+  <div id="people">
+    <p-table [value]="people" [tableStyle]="{ 'min-width': '50rem' }">
+      <ng-template pTemplate="header">
+        <tr>
+          <th>Name</th>
+          <th>Score</th>
+        </tr>
+      </ng-template>
+      <ng-template pTemplate="body" let-people>
+        <tr>
+          <td>{{ people.name }}</td>
+          <td>{{ people.score }}</td>
+        </tr>
+      </ng-template>
+    </p-table>
+  </div>
+
+</div>
