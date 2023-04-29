@@ -30,6 +30,7 @@ import { DataViewModule } from 'primeng/dataview';
 import { AvatarModule } from 'primeng/avatar';
 import { OrderListModule } from 'primeng/orderlist';
 import { TopPeopleComponent } from './pages/top-people/top-people.component';
+import {TableModule} from "primeng/table";
 
 @NgModule({
   declarations: [
@@ -46,25 +47,25 @@ import { TopPeopleComponent } from './pages/top-people/top-people.component';
     CommunityComponent,
     TopPeopleComponent,
   ],
-  imports: [
-    BrowserModule,
-    AppRoutingModule,
-    InputTextModule,
-    CheckboxModule,
-    RadioButtonModule,
-    FormsModule,
-    ButtonModule,
-    PasswordModule,
-    BrowserAnimationsModule,
-    ReactiveFormsModule,
-    MenubarModule,
-    MatIconModule,
-    CardModule,
-    ImageModule,
-    DataViewModule,
-    AvatarModule,
-    OrderListModule,
-  ],
+    imports: [
+        BrowserModule,
+        AppRoutingModule,
+        InputTextModule,
+        CheckboxModule,
+        RadioButtonModule,
+        FormsModule,
+        ButtonModule,
+        PasswordModule,
+        BrowserAnimationsModule,
+        ReactiveFormsModule,
+        MenubarModule,
+        MatIconModule,
+        AvatarModule,
+        ImageModule,
+        TableModule,
+      DataViewModule,
+      OrderListModule
+    ],
   providers: [],
   bootstrap: [AppComponent],
 })
