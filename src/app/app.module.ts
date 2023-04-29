@@ -27,6 +27,8 @@ import { CardModule } from 'primeng/card';
 import { ImageModule } from 'primeng/image';
 import { CommunityComponent } from './pages/community/community.component';
 import { DataViewModule } from 'primeng/dataview';
+import { AvatarModule } from 'primeng/avatar';
+import { OrderListModule } from 'primeng/orderlist';
 
 @NgModule({
   declarations: [
@@ -58,6 +60,8 @@ import { DataViewModule } from 'primeng/dataview';
     CardModule,
     ImageModule,
     DataViewModule,
+    AvatarModule,
+    OrderListModule,
   ],
   providers: [],
   bootstrap: [AppComponent],

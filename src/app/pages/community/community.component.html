@@ -1,4 +1,21 @@
 <app-menu></app-menu>
-<div class="card">
-  <p-dataView></p-dataView>
-</div>
+<p-dataView [value]="people">
+  <ng-template let-people pTemplate="listItem">
+    <div class="list-container">
+      <div class="person-info">
+        <div class="image-container">
+          <p-avatar label="{{people.name[0]}}" size="xlarge" styleClass="mr-2"></p-avatar>
+          <h5 class="mb-2">{{people.name}}</h5>
+        </div>
+        <div class="info-container">
+          <ng-container *ngIf="people.achievement">
+            {{people.name}} received his reward!
+          </ng-container>
+          <ng-container *ngIf="people.met">
+            {{people.name}} met {{people.met}}!
+          </ng-container>
+        </div>
+      </div>
+    </div>
+  </ng-template>
+</p-dataView>
