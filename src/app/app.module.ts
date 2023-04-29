@@ -29,6 +29,7 @@ import { CommunityComponent } from './pages/community/community.component';
 import { DataViewModule } from 'primeng/dataview';
 import { AvatarModule } from 'primeng/avatar';
 import { OrderListModule } from 'primeng/orderlist';
+import { TopPeopleComponent } from './pages/top-people/top-people.component';
 
 @NgModule({
   declarations: [
@@ -43,6 +44,7 @@ import { OrderListModule } from 'primeng/orderlist';
     RewardsComponent,
     SettingsComponent,
     CommunityComponent,
+    TopPeopleComponent,
   ],
   imports: [
     BrowserModule,

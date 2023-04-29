@@ -27,6 +27,11 @@ export class MenuComponent {
         routerLink: '/rewards',
       },
       {
+        label: 'Ranking',
+        icon: 'pi pi-sitemap',
+        routerLink: '/ranking'
+      },
+      {
         label: 'Community',
         icon: 'pi pi-megaphone',
         routerLink: '/community',
