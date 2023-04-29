@@ -5,17 +5,18 @@
     <p-table [value]="people" [tableStyle]="{ 'min-width': '50rem' }">
       <ng-template pTemplate="header">
         <tr>
-          <th>Name</th>
-          <th>Score</th>
+          <th style="text-align: center;">Name</th>
+          <th style="text-align: center;">Score</th>
         </tr>
       </ng-template>
       <ng-template pTemplate="body" let-people>
         <tr>
-          <td>{{ people.name }}</td>
-          <td>{{ people.score }}</td>
+          <td style="text-align: center;">{{ people.name }}</td>
+          <td style="text-align: center;">{{ people.score }}</td>
         </tr>
       </ng-template>
     </p-table>
+
   </div>
 
 </div>
